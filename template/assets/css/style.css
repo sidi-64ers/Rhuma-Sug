@@ -1,0 +1,137 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #101011;
+    background-color:black;
+}
+
+p {
+    font-size: 16px;
+}
+
+#myNavbar a{
+    color: #d17b0c;
+    font-weight: bolder;
+    background-color: black;
+
+}
+
+
+.margin {
+    margin-bottom: 45px;
+    font-weight: bolder;
+}
+
+.bg-1 {
+    background-color: #d17b0c;
+    /* Green */
+    color: black;
+    height: 100vh;
+}
+
+.bg-2 {
+    background-color: black;
+    /* Dark Blue */
+    color: #d17b0c;
+    height: 100vh;
+
+}
+
+.bg-3 {
+    background-color: #d17b0c;
+    /* White */
+    color: black;
+}
+
+.bg-4 {
+    background-color: black;
+    /* Black Gray */
+    color: #d17b0c;
+    height: 10vh;
+
+}
+
+.bg-5 {
+    background-color: #d17b0c;
+    color:black;
+}
+
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    background-color : black;
+    color: #d17b0c;
+    font-weight: bolder;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    height: 10vh;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+
+.navbar-nav li a:hover {
+    color: #d17b0c !important;
+    text-decoration-line: overline;
+}
+#logo{
+    padding : 0;
+    margin-left: 0;
+}
+
+img{
+    object-fit: contain;
+}
+
+a {
+    color: #d17b0c;
+    text-decoration: none;
+}
+
+img .login {
+    
+    float: right ;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #d17b0c;
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    height: 35vh;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: black;
+    color: #d17b0c;
+
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: #d17b0c;
+    ;
+    display: none;
+    overflow: hidden;
+  }
+  
